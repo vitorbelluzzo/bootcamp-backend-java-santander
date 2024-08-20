@@ -1,0 +1,76 @@
+{
+   // Use IntelliSense to learn about possible attributes.
+   // Hover to view descriptions of existing attributes.
+   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "type": "java",
+         "name": "AboutMe",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.terminalEargumentos.AboutMe",
+         "projectName": "javaBasico_f6457c47"
+      },
+      {
+         "type": "java",
+         "name": "Current File",
+         "request": "launch",
+         "mainClass": "${file}"
+      },
+      {
+         "type": "java",
+         "name": "Myclass",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.anatomiaClasse.Myclass",
+         "projectName": "javaBasico_f6457c47"
+      },
+      {
+         "type": "java",
+         "name": "anatomiaDeClasse",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.anatomiaClasse.anatomiaDeClasse",
+         "projectName": "javaBasico_f6457c47"
+      },
+      {
+         "type": "java",
+         "name": "Escopo",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.escopo.Escopo",
+         "projectName": "javaBasico_f6457c47"
+      },
+      {
+         "type": "java",
+         "name": "User",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.metodos.User",
+         "projectName": "javaBasico_f6457c47"
+      },
+      {
+         "type": "java",
+         "name": "operadores",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.operadores.operadores",
+         "projectName": "javaBasico_f6457c47"
+      },
+      {
+         "type": "java",
+         "name": "AboutMe",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.terminalEargumentos",
+         "projectName": "javaBasico_f6457c47",
+         "args": [
+            "Vitor",
+            "Belluzzo",
+            "24",
+            "1.84"
+         ]
+      },
+      {
+         "type": "java",
+         "name": "tiposVariaveis",
+         "request": "launch",
+         "mainClass": "CursosintaxeJava.modulos.tiposEVariaveis.tiposVariaveis",
+         "projectName": "javaBasico_f6457c47"
+      }
+   ]
+}
