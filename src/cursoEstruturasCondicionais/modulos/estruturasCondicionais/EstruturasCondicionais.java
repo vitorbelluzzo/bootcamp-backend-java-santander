@@ -5,6 +5,8 @@ public class EstruturasCondicionais {
         condicionalSimples();
         condicionalComposta();
         condicionalEncadeada();
+        condicicaoTernaria();
+        sistemaDeMedida();
     }
 
 
@@ -41,6 +43,35 @@ public class EstruturasCondicionais {
             System.out.println("Recuperação");
         else
             System.out.println("Reprovado");
+    }
+
+    public static void condicicaoTernaria() {
+        int nota = 6;
+        String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado";
+        System.out.println(resultado);
+    }
+
+    public static void sistemaDeMedida() {
+        String sigla = "M";
+
+        switch (sigla) {
+            case "P": {
+                System.out.println("Pequeno");
+                break;
+            }
+            case "M": {
+                System.out.println("Médio");
+                break;
+            }
+            case "G": {
+                System.out.println("Grande");
+                break;
+            }
+            default: {
+                System.out.println("Indefinido");
+                break;
+            }
+        }
     }
 
 
