@@ -59,20 +59,11 @@ public class EstruturaDeRepeticao {
     }
 
     public static void DoWhile() {
-
-        int num = 5;
-        int count = 1;
-
+        System.out.println("Discando...");
         do {
-            num += count;
-            System.out.println(num);
-        } while (count <= 3);
-//        System.out.println("Discando...");
-//
-//        do {
-//            System.out.println("Telefone tocando");
-//        } while (Ringing());
-//        System.out.println("Alô!");
+            System.out.println("Telefone tocando");
+        } while (Ringing());
+        System.out.println("Alô!");
 
 
     }
