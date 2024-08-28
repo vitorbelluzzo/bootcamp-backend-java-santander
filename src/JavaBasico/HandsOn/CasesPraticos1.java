@@ -1,8 +1,8 @@
-package HandsOn;
+package JavaBasico.HandsOn;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class CasesPraticos {
+public class CasesPraticos1 {
     public static void main(String[] args) {
 //        controleCandidatos(2000);
         selecaoCandidato();

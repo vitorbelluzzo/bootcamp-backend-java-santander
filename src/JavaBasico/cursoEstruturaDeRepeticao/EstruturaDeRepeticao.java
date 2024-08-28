@@ -1,4 +1,4 @@
-package cursoEstruturaDeRepeticao;
+package JavaBasico.cursoEstruturaDeRepeticao;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;

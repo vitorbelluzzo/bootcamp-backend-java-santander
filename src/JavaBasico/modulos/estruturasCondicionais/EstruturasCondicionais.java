@@ -1,4 +1,4 @@
-package cursoEstruturasCondicionais.modulos.estruturasCondicionais;
+package JavaBasico.modulos.estruturasCondicionais;
 
 public class EstruturasCondicionais {
     public static void main(String[] args) {

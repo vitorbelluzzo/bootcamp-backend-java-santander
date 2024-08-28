@@ -1,4 +1,4 @@
-package cursoSintaxeJava.modulos.metodos;
+package JavaBasico.modulos.metodos;
 
 public class User {
     public static void main(String[] args) throws Exception {

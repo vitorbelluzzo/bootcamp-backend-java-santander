@@ -1,4 +1,4 @@
-package CursoTratamentoDeExcessoes;
+package JavaBasico.CursoTratamentoDeExcessoes;
 
 
 import java.util.InputMismatchException;
