@@ -6,7 +6,10 @@ public class GetterseSetters {
 
 
     public static void main(String[] args) {
+        Constructor coco = new Constructor(123456);
 
+
+        System.out.println(coco.cpf);
     }
 
 
