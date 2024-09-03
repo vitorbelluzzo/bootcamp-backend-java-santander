@@ -1,20 +1,21 @@
-package PilaresPOO.ExemploMSN;
+package PilaresPOO.ExemploMSN.apps;
 
-public class MSNmessenger extends/*herança*/ ServicoMensagemInstantanea {
-
-
+public class Telegram extends /*herança*/ ServicoMensagemInstantanea{
     @Override
     public void enviarMensagem() {
+        validarConexaoInternet();
         SalvarHistoricoDeMensagem();
-        System.out.println("Enviando mensagem pelo msn");
+        System.out.println("Enviando mensagem pelo telegram");
     }
 
     @Override
     public void receberMensagem() {
-        System.out.println("Recebendo mensagem pelo msn");
+        System.out.println("Recebendo mensagem pelo telegram");
     }
 
     private /*Encapsulamento*/ void SalvarHistoricoDeMensagem() {
         System.out.println("Mensagem Salva");
     }
+
+
 }

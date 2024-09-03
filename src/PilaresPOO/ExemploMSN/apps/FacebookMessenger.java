@@ -1,8 +1,10 @@
-package PilaresPOO.ExemploMSN;
+package PilaresPOO.ExemploMSN.apps;
 
 public class FacebookMessenger extends/*herança*/ ServicoMensagemInstantanea {
     @Override
     public void enviarMensagem() {
+        validarConexaoInternet();
+        SalvarHistoricoDeMensagem();
         System.out.println("Enviando mensagem pelo facebook");
     }
 
